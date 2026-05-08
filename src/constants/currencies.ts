@@ -1,0 +1,36 @@
+import { Currency } from '../types';
+
+export const CURRENCIES: Currency[] = [
+  { code: 'USD', symbol: '$', name: 'US Dollar' },
+  { code: 'EUR', symbol: '€', name: 'Euro' },
+  { code: 'GBP', symbol: '£', name: 'British Pound' },
+  { code: 'INR', symbol: '₹', name: 'Indian Rupee' },
+  { code: 'AED', symbol: 'د.إ', name: 'UAE Dirham' },
+  { code: 'JPY', symbol: '¥', name: 'Japanese Yen' },
+  { code: 'CAD', symbol: 'CA$', name: 'Canadian Dollar' },
+  { code: 'AUD', symbol: 'A$', name: 'Australian Dollar' },
+  { code: 'SGD', symbol: 'S$', name: 'Singapore Dollar' },
+  { code: 'PKR', symbol: '₨', name: 'Pakistani Rupee' },
+  { code: 'BDT', symbol: '৳', name: 'Bangladeshi Taka' },
+  { code: 'NGN', symbol: '₦', name: 'Nigerian Naira' },
+  { code: 'KES', symbol: 'KSh', name: 'Kenyan Shilling' },
+  { code: 'BRL', symbol: 'R$', name: 'Brazilian Real' },
+  { code: 'MXN', symbol: 'MX$', name: 'Mexican Peso' },
+  { code: 'ZAR', symbol: 'R', name: 'South African Rand' },
+  { code: 'CHF', symbol: 'Fr', name: 'Swiss Franc' },
+  { code: 'SEK', symbol: 'kr', name: 'Swedish Krona' },
+  { code: 'NOK', symbol: 'kr', name: 'Norwegian Krone' },
+  { code: 'DKK', symbol: 'kr', name: 'Danish Krone' },
+  { code: 'HKD', symbol: 'HK$', name: 'Hong Kong Dollar' },
+  { code: 'NZD', symbol: 'NZ$', name: 'New Zealand Dollar' },
+  { code: 'THB', symbol: '฿', name: 'Thai Baht' },
+  { code: 'MYR', symbol: 'RM', name: 'Malaysian Ringgit' },
+  { code: 'IDR', symbol: 'Rp', name: 'Indonesian Rupiah' },
+  { code: 'PHP', symbol: '₱', name: 'Philippine Peso' },
+  { code: 'VND', symbol: '₫', name: 'Vietnamese Dong' },
+  { code: 'EGP', symbol: 'E£', name: 'Egyptian Pound' },
+  { code: 'SAR', symbol: '﷼', name: 'Saudi Riyal' },
+  { code: 'QAR', symbol: 'QR', name: 'Qatari Riyal' },
+];
+
+export const DEFAULT_CURRENCY = CURRENCIES[0]; // USD
